@@ -1,0 +1,9 @@
+<nav>
+    <ul class="nav nav-pills pull-right">
+        {{#each items}}
+        <li {{#if active}}class="active"{{/if}}>
+            <a href="#{{hash}}">{{label}}</a>
+        </li>
+        {{/each}}
+    </ul>
+</nav>

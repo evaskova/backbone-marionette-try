@@ -1,0 +1,16 @@
+<div class="jumbotron">
+        <p class="lead">Здесь вы можете оставить свой совет по покупке мотоцикла</p>
+        {{#if text}}
+        <div class="alert alert-success">Спасибо, я обязательно прочитаю ваш совет</div>
+        <blockquote>
+                {{text}}
+        </blockquote>
+        {{else}}
+        <div class="form-group">
+                <textarea class="form-control" id="advice-input" placeholder="Введите совет"></textarea>
+        </div>
+        <div class="form-group">
+                <button class="btn btn-success" id="advice-send-btn">Отправить</button>
+        </div>
+        {{/if}}
+</div>

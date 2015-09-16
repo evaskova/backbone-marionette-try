@@ -1,0 +1,33 @@
+@import "../../node_modules/bootstrap/less/bootstrap.less";
+
+@link-color: @brand-danger;
+
+.app-header {
+    margin-top: 20px;
+    margin-bottom:30px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid @gray-lighter;
+}
+
+.index .jumbotron {
+    text-align: center;
+}
+
+textarea {
+    .resizable(@direction: vertical);
+}
+
+blockquote {
+    border-color: @brand-success;
+}
+
+.nav-pills {
+    li.active {
+        a, a:hover, a:focus {
+        background-color: @brand-danger;
+        }
+    }
+}
+

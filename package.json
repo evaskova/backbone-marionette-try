@@ -1,9 +1,12 @@
 {
-    "name": "backbone_marionette_try",
+    "name": "backbone-marionette-try",
     "version": "0.0.0",
     "author": "VZhik",
     "description": "backbone/marionette first project",
-    "repository": "",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/thejameskyle/marionette-wires.git"
+    },
     "engines": {
         "node": ">= 0.12.1",
         "npm": ">= 2.5.1"
